@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  dataminer_frontend:
+    container_name: "dataminer_frontend"
+    image: "dataminer-frontend:latest"
+    ports:
+      - "3000:3000"
